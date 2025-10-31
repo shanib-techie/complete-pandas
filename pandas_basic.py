@@ -4,7 +4,7 @@ import pandas as pd
 # df = pd.read_json(" ") for .json
 
 
-#KUD KA DATASET KAISE BANAI 
+# #KUD KA DATASET KAISE BANAI 
 data = {
     "name" : ["shanib","gogi","pinku","chotu","gabru","fawda"],
     "age" : [19,34,56,78,5,77],
@@ -18,4 +18,4 @@ print(df)#bus simpli abb terminal me data print ho jaiga=55
 # df.to_csv("data")
 # df.to_excel("data.xlsx", index=False)  ##extension likna bhi must h {data.xlxs}
 # # df.to_json("data.json",index=False)##kisi bhi extension me kr skate h
-# df.to_html("data.html")
+# df.to_html("data.html")                                                                                                                   
