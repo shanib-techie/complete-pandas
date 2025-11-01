@@ -7,7 +7,7 @@ import pandas as pd
 # #KUD KA DATASET KAISE BANAI 
 data = {
     "name" : ["shanib","gogi","pinku","chotu","gabru","fawda"],
-    "age" : [19,34,56,78,5,77],
+    "age" : [109,34,56,78,5,77],
     "city" : ["delhi","mp","mumbai","goa","pune","raj"]
 
 }
