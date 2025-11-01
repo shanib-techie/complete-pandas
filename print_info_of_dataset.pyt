@@ -24,12 +24,16 @@ data = {
 df = pd.DataFrame(data)
 # df = pd.read_excel("Project-Management-Sample-Data.xlsx")
 # # print(df)
-# print(df.info())
 
 
 
-# print("some statistic thing : ")
-# print (df.describe())
+print("DATA infomation")
+print(df.info())
+
+
+
+print("some statistic thing :  \n")
+print (df.describe())# numeric ka samaan return krta h
 
 
 

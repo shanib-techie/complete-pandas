@@ -32,10 +32,10 @@ df =pd.DataFrame(data)
 
 print(df)
 
-"""  PRINT SOME SUBSET """
-# print("return only name")
-# names = df[["name"]]
-# print(names)
+"""  PRINT SOME SUBSET """  ##simply [["coloumn name"]]
+print("return only name")
+names = df[["name"]]
+print(names)
 
 
 # print("name & age & salary")
