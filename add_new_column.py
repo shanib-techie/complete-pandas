@@ -52,4 +52,4 @@ print(df)
 df.drop(columns=["UNIQUE_id"],inplace = True)
 df.drop(columns= ["bonus"], inplace = True)
 
-print(df)
+print(df)....
