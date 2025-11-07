@@ -35,14 +35,14 @@ print(df)
 
 """ ANOTHER FUNCTION THAT ABLE TO ADD NEW COLOUMN WHICH IS insert(loc,"column_name",some_data)"""
 # iske faide kisi bhi index pr jakr coloum add kr sakte h
-df.insert(4,"address",["karol bagh","bhopat","andheri","punin","vikas marg","kota","beach","mandir wali gali","thirupati"])
-df.insert(0,"UNIQUE_id",[239,240,241,242,243,244,245,246,247])
+# df.insert(4,"address",["karol bagh","bhopat","andheri","punin","vikas marg","kota","beach","mandir wali gali","thirupati"])
+# df.insert(0,"UNIQUE_id",[239,240,241,242,243,244,245,246,247])
 # print(df)
 
 """column me kisi perticular value ko change krna h  df.loc[row_index,"column_name"] = new_value"""
-df.loc[0,"age"] = 19
-print("ABB MERI AGE CHANGE HO GYI NORMAL WALI\n")
-print(df)
+# df.loc[0,"age"] = 19
+# print("ABB MERI AGE CHANGE HO GYI NORMAL WALI\n")
+# print(df)
 
 
 
@@ -52,4 +52,4 @@ print(df)
 df.drop(columns=["UNIQUE_id"],inplace = True)
 df.drop(columns= ["bonus"], inplace = True)
 
-print(df)....
+print(df)
