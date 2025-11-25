@@ -55,5 +55,5 @@ print(names)
 
 # select those salary > 100 or age <75
 
-stsa = df[(df["salary"]> 100) |  (df["age"] <75)]
+stsa = df[(df["salary"]> 100) &  (df["age"] <75)]
 print(stsa)

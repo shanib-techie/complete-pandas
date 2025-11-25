@@ -7,6 +7,7 @@ false-> exist hai"""
 
 import pandas as pd
 
+
 data = {
     "name" : ["shanib","gogi","pinku","chotu","gabru","fawda","bona","haroon","gaawar"],
     "age" : [109,34,56,78,5,77,24,67,65],
@@ -24,19 +25,19 @@ data_with_miss = {
 
 df = pd.DataFrame(data_with_miss)
 
-# print(df.isnull()) #return in bool
-# print(df.isnull().sum()) #return how much data are missing in each column
+print(df.isnull()) #return in bool jo none h waha true 
+print(df.isnull().sum()) #return how much data are missing in each column
 
 
 """NOW, WE STUDY DIFFERENT WAY TO DEAL WITH THIS TYPE OF PROBLEM"""
 # df.dropna(inplace = True)
 # df.dropna(inplace= True)#aise krne se woh data print hoa jiski koi bhi val missing ni h
 
-# df.fillna(0,inplace= True)#agr stating me 0 krde so missing ki jagah 0 hoga
+# df.fillna(0,inplace= True)#agr starting me 0 krde so missing ki jagah 0 hoga
 # df["salary"].fillna(df["salary"].mean(),inplace=True)  ## abb hamne salary wale me .fiilna krke mean kr diya
 # df["age"].fillna(df["salary"].mean(),inplace=True)  ##deko mene age me salary.mean kr diya
 
-# print(df)
+print(df)
 
 
 

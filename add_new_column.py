@@ -14,10 +14,10 @@ df = pd.DataFrame(data)
 
 
 #   iss tarike se increment bhi kr sakte h perticular column me
-df["salary"] = df["salary"]+1500
+# df["salary"] = df["salary"]+1500
 df["bonus"] = df["salary"]*0.1
 df["current income"] = df["salary"] + df["bonus"]
-print(df)
+# print(df)
 
 # print("print_only_name_current_income. : ")
 # print_only_name_current_income = df[["name","current income"]]### kuch selected data print krna h 
@@ -26,9 +26,12 @@ print(df)
 #USE AND FIND WHERE INCOME > 55000
 
 # print("\nDATA WHERE AGE > 100 OR INCOM > 50000\n")
-# where = df[(df["current income"] > 50000) | (df["age"] > 100)]
+where = df[(df["current income"] > 50000) | (df["age"] > 100)]
+print("bonus & age 5000 , 100")
+selc = df[(df["bonus"] > 5000) | (df["age"] > 100 )]
+print(selc)
 
-# print(where)
+print(where)
 
 
 
