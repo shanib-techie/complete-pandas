@@ -34,14 +34,14 @@ print(df)
 
 """  PRINT SOME SUBSET """  ##simply [["coloumn name"]]
 print("return only name")
-names = df[["name"]]
-print(names)
+# names = df[["name"]]
+# print(names)
 
 
 # print("name & age & salary")
 
-# combine = df[["name","age","salary"]]
-# print(combine)  
+combine = df[["name","age","salary"]]
+print(combine)  
 
 
 
