@@ -52,35 +52,22 @@
     "EmpCode": "C8GIS7",
     "EmpName": "Elianna York",
     "Address": "6016 Damian Island, South Thurman, AK 15306",
-    "EmailId": "Elianna.York@jsonguide.com",
-    "Website": "https://www.jsonguide.com"
-  },
+    "EmailId": "Elianna.York@jsonguide.com", },
   {
     "EmpId": 8,
     "EmpCode": "C8FMI2",
     "EmpName": "Leandro Davila",
     "Address": "Suite 309 89736 Reilly Walk, Parkerland, WI 72208-3627",
-    "EmailId": "Leandro.Davila@jsonguide.com",
-    "Website": "https://www.jsonguide.com"
-  },
-  {
-    "EmpId": 9,
-    "EmpCode": "CDQ4HE",
-    "EmpName": "Rayne Brown",
-    "Address": "Suite 134 255 Kutch Crossing, Kendallchester, CO 88966-6564",
-    "EmailId": "Rayne.Brown@jsonguide.com",
-    "Website": "https://www.jsonguide.com"
-  },
-  {
-    "EmpId": 10,
-    "EmpCode": "C6SYZY",
-    "EmpName": "Elijah Beltran",
-    "Address": "8698 Zachariah Corners, South Frankieview, VT 59873-7665",
-    "EmailId": "Elijah.Beltran@jsonguide.com",
-    "Website": "https://www.jsonguide.com"
-  },
-  {
-    "EmpId": 11,
+    "EmailId": "Leandro.Davila@jsonguide.com "Website": "https://www.jsonguide.com"
+  },   "EmpId": 9,
+    "EmpCode": "CDQ4HE",mpName": "Rayne Brown",
+    "Address": "Suite 134 255 Kutch Crossingdallchester, CO 88966-6564",
+    "EmailId": "Rayne.Brown@jsonguide.com",bsite": "https://www.jsonguide.com"
+  },  "EmpId": 10,
+    "EmpCode": "C6SYZY",mpName": "Elijah Beltran",
+    "Address": "8698 Zachariah Corners, SoutT 59873-7665",
+    "EmailId": "Elijah.Beltran@jsonguide.comsite": "https://www.jsonguide.com"
+  },1,
     "EmpCode": "C1RMRC",
     "EmpName": "Kaydence Ahmed",
     "Address": "52083 Schmidt Dam, Schowaltermouth, RI 36876-1369",
