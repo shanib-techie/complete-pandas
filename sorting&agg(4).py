@@ -15,7 +15,9 @@ data = {
 
 
 df = pd.DataFrame(data)
-# df.sort_values(by = "salary" , ascending=True,inplace=True)#one column pass
+df.sort_values(by=["name","salary"],ascending=[True,False],inplace=True)
+
+# # df.sort_values(by = "salary" , ascending=True,inplace=True)#one column pass
 # df.sort_values(by=["age","salary"],ascending=[True,False],inplace=True)  ##yeh tab kaam ayga jab age bahut logo ki same ho k
 print("data is sorting by salary ")
 print(df)

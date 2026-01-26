@@ -49,11 +49,13 @@ print(combine)
 """ CONDITIONAL STATEMENT"""
 #  select those salary > 100
 
-# sts = df[df["salary"]>100]
-# print(sts)
+sts = df[(df["salary"]<100)]
+print(sts)
 
 
 # select those salary > 100 or age <75
 
-stsa = df[(df["salary"]> 100) &  (df["age"] <75)]
-print(stsa)
+# stsa = df[(df["salary"]> 100) &  (df["age"] <75)]
+# print(stsa)
+filter = df[(df["city"] == "goa") | (df["age"] > 100)]
+print(filter)

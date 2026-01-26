@@ -34,18 +34,18 @@ print(df)
 
 
 
-# print("DATA infomation")
-# print(df.info())
+print("DATA infomation")
+print(df.info())
 
 
 
-# print("some statistic thing :  \n")
-# print (df.describe())# numeric ka samaan return krta h
+print("some statistic thing :  \n")
+print (df.describe())# numeric ka samaan return krta h
 
 
 
-# print("shape : return M X N : ")
-# print(df.shape)
+print("shape : return M X N : ")
+print(df.shape)
 
-# print("total no of coloum : ")
-# print(df.columns)
+print("total no of coloum : ")
+print(df.columns)
