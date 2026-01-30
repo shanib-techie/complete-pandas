@@ -26,21 +26,19 @@ print(all_sales)
 
 
 
-product_info = pd.DataFrame({
-    "Product": ["Laptop", "Mouse", "Keyboard"],
-    "Category": ["Electronics", "Accessories", "Accessories"]
-})
+# product_info = pd.DataFrame({
+#     "Product": ["Laptop", "Mouse", "Keyboard"],
+#     "Category": ["Electronics", "Accessories", "Accessories"]
+# })
 
-sales_data = pd.DataFrame({
-    "Sales_Jan": [50000, 1200, 2500],
-    "Sales_Feb": [60000, 1500, 2700]
-})
+# sales_data = pd.DataFrame({
+#     "Sales_Jan": [50000, 1200, 2500],
+#     "Sales_Feb": [60000, 1500, 2700]
+# })
 
-# Column-wise concatenate
-merged_data = pd.concat([product_info, sales_data], axis=1)
-print(merged_data)
-
-
+# # Column-wise concatenate
+# merged_data = pd.concat([product_info, sales_data], axis=1)
+# print(merged_data)
 
 
 
@@ -50,23 +48,25 @@ print(merged_data)
 
 
 
-df1 = pd.DataFrame({
-    "A": [1, 2],
-    "B": [3, 4]
-})
-
-df2 = pd.DataFrame({
-    "B": [5, 6],
-    "C": [7, 8]
-})
-
-result = pd.concat([df1, df2], ignore_index=True)
-print(result)
 
 
-"""     A  B    C
-0  1.0  3  NaN
-1  2.0  4  NaN
-2  NaN  5  7.0
-3  NaN  6  8.0
-"""
+# df1 = pd.DataFrame({
+#     "A": [1, 2],
+#     "B": [3, 4]
+# })
+
+# df2 = pd.DataFrame({
+#     "B": [5, 6],
+#     "C": [7, 8]
+# })
+
+# result = pd.concat([df1, df2], ignore_index=True)
+# print(result)
+
+
+# """     A  B    C
+# 0  1.0  3  NaN
+# 1  2.0  4  NaN
+# 2  NaN  5  7.0
+# 3  NaN  6  8.0
+# """

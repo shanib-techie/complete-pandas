@@ -14,7 +14,7 @@ df = pd.DataFrame(data)
 
 
 #   iss tarike se increment bhi kr sakte h perticular column me
-# df["salary"] = df["salary"]+1500
+df["salary"] = df["salary"]+1500
 df["bonus"] = df["salary"]*0.1
 df["current income"] = df["salary"] + df["bonus"]
 # print(df)
@@ -52,7 +52,7 @@ print(where)
 
 
 """ COLOUMN DROP KRNE KE LIYE BHI HOTA H"""
-df.drop(columns=["UNIQUE_id"],inplace = True)
-df.drop(columns= ["bonus"], inplace = True)
+# df.drop(columns=["UNIQUE_id"],inplace = True)
+# df.drop(columns= ["bonus"], inplace = True)
 
 print(df)

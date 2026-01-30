@@ -3,8 +3,8 @@ import numpy as np
 # ===============================
 # COMMON HEADER (for all outputs)
 # ===============================
-name = "BHAWESH JOSHI"
-roll = "CSC-24-14"
+name = "shanib"
+roll = "CSC-24-42"
 print(f"Name: {name} | Roll No: {roll}")
 print("-" * 50)
 
@@ -13,6 +13,8 @@ print("-" * 50)
 
 # ==================================================
 print("\n(a) Mean, Std Dev, Variance (Axis = 1)")
+# arr_a = [3,4,5,6]
+# print("Array:\n", arr_a)
 
 arr_a = np.random.randint(1, 100, size=(3, 4))
 print("Array:\n", arr_a)
@@ -27,9 +29,8 @@ print("Variance:", var_a)
 
 # ==================================================
 # (b) Create m x n array and reshape to n x m
-"""name = "bhawesh joshi"
-roll = "CSC-24-14"
-"""
+"""name = "shanib"
+roll = "CSC-24-14"42""
 
 # ==================================================
 print(" \n(b) Create & Reshape Array")
@@ -49,9 +50,8 @@ print("Reshaped Array (n x m):\n", reshaped)
 # ==================================================
 # (c) Check zero, non-zero and NaN elements
 
-"""name = "bhawesh joshi"
-roll = "CSC-24-14"
-"""
+#"""name = "shanib"
+#roll = "CSC-24-14"42"""
 # ==================================================
 print("\n(c) Zero, Non-zero and NaN elements")
 
@@ -68,9 +68,8 @@ print("NaN indices:", nan_idx)
 
 # ==================================================
 # (d) Covariance and Correlation
-"""name = "bhawesh joshi"
-roll = "CSC-24-14"
-"""
+"""name = "shanib"
+roll = "CSC-24-14"42""
 # ==================================================
 print("\n(d) Covariance & Correlation")
 
@@ -93,9 +92,8 @@ print("Correlation Matrix:\n", corr)
 
 # ==================================================
 # (e) Sum of first half & Product of second half
-"""name = "bhawesh joshi"
-roll = "CSC-24-14"
-"""
+"""name = "shanib"
+roll = "CSC-24-42"""
 # ==================================================
 print("\n(e) Sum & Product of Array Halves")
 
