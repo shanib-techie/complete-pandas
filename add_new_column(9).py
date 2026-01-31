@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 data = {
     "name" : ["shanib","gogi","pinku","chotu","gabru","fawda","bona","haroon","gaawar"],
@@ -12,11 +13,12 @@ df = pd.DataFrame(data)
 
 #  ADD NEW COLUMN
 
+# df.insert(0,"final_salary",df["bonus"]+df["salary"])
 
 #   iss tarike se increment bhi kr sakte h perticular column me
 df["salary"] = df["salary"]+1500
 df["bonus"] = df["salary"]*0.1
-df["current income"] = df["salary"] + df["bonus"]
+# df["current income"] = df["salary"] + df["bonus"]
 # print(df)
 
 # print("print_only_name_current_income. : ")
@@ -26,12 +28,12 @@ df["current income"] = df["salary"] + df["bonus"]
 #USE AND FIND WHERE INCOME > 55000
 
 # print("\nDATA WHERE AGE > 100 OR INCOM > 50000\n")
-where = df[(df["current income"] > 50000) | (df["age"] > 100)]
-print("bonus & age 5000 , 100")
-selc = df[(df["bonus"] > 5000) | (df["age"] > 100 )]
-print(selc)
+# where = df[(df["current income"] > 50000) | (df["age"] > 100)]
+# print("bonus & age 5000 , 100")
+# selc = df[(df["bonus"] > 5000) | (df["age"] > 100 )]
+# print(selc)
 
-print(where)
+# print(where)
 
 
 
@@ -40,7 +42,7 @@ print(where)
 # iske faide kisi bhi index pr jakr coloum add kr sakte h
 # df.insert(4,"address",["karol bagh","bhopat","andheri","punin","vikas marg","kota","beach","mandir wali gali","thirupati"])
 # df.insert(0,"UNIQUE_id",[239,240,241,242,243,244,245,246,247])
-# print(df)
+print(df)
 
 """column me kisi perticular value ko change krna h  df.loc[row_index,"column_name"] = new_value"""
 # df.loc[0,"age"] = 19
@@ -55,4 +57,7 @@ print(where)
 # df.drop(columns=["UNIQUE_id"],inplace = True)
 # df.drop(columns= ["bonus"], inplace = True)
 
-print(df)
+# print(df)
+
+# k = np.mean(df['salary'])
+# print("syad a jai ",k)

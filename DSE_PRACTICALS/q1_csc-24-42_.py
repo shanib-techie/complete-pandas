@@ -29,8 +29,8 @@ print("Variance:", var_a)
 
 # ==================================================
 # (b) Create m x n array and reshape to n x m
-"""name = "shanib"
-roll = "CSC-24-14"42""
+name = "shanib"
+roll = "CSC-24-42"
 
 # ==================================================
 print(" \n(b) Create & Reshape Array")
@@ -91,10 +91,10 @@ print("Covariance Matrix:\n", cov)
 print("Correlation Matrix:\n", corr)
 
 # ==================================================
-# (e) Sum of first half & Product of second half
-"""name = "shanib"
-roll = "CSC-24-42"""
-# ==================================================
+# # (e) Sum of first half & Product of second half
+# name = "shanib"
+# roll = "CSC-24-42"""
+# # ==================================================
 print("\n(e) Sum & Product of Array Halves")
 
 A1 = np.random.randint(1, 10, 10)
