@@ -3,8 +3,8 @@ import numpy as np
 
 
 list = {
-    "name" : "ujjawal kumar sinha",
-    "roll no " : "csc/24/55",
+    "name" : "shanib",
+    "roll no " : "csc/24/14",
 }
 data = [
     [50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98],
