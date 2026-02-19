@@ -61,3 +61,6 @@ print(df)
 
 # k = np.mean(df['salary'])
 # print("syad a jai ",k)
+
+df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
+print(df)
