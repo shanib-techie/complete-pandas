@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris##sklearn ke dataset se irs wala data load kra
 
 
 # 
@@ -15,12 +15,12 @@ iris = load_iris()
 
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 df.to_html("load_iris.html")
-df['species'] = iris.target##
+df['species'] = iris.target## koi naya coloum add krne ke liye
 print("-"*50)
 
 print(dict)
 print(df.head())
-print(df.describe())
+print(df.describe())#hr coloum ka jaruri data ajata h
 
 
 mean = df.mean(numeric_only=True)##iss data me jaha numeric colun h sirf uska mean
@@ -43,17 +43,17 @@ print(dict)
 mode = df.mode(numeric_only=True)
 print("\nMode:\n", mode)
 
-
+# ----------------------yaha se sab sikhna h real life usee-------------------------
 print("-"*50)
 print(dict)
 std = df.std(numeric_only=True)
-print("\nStandard Deviation:\n", std)
+print("\nStandard Deviation:\n", std)##abhi baadme samjh na h
 
 
 print("-"*50)
 print(dict)
 se = std / np.sqrt(len(df))
-print("\nStandard Error:\n", se)
+print("\nStandard Error:\n", se)##abhi baadme samjh na h
 
 
 
