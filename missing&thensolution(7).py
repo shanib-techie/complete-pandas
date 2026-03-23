@@ -25,6 +25,8 @@ data = {
 
 df = pd.DataFrame(data)
 
+
+
 print(df.isnull()) #return in bool jo none h waha true 
 print(df.isnull().sum()) #return how much data are missing in each column
 
